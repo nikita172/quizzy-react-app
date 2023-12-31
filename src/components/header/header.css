@@ -1,0 +1,28 @@
+.quizzyHeader{
+  height: 70px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 10px 1px 8px rgba(0,0,0,0.5);
+}
+.logoImg{
+  width: 60px;
+  margin-right: 20px;
+  animation: logoMove 3s infinite ease alternate;
+}
+@keyframes logoMove {
+  from{
+    transform: translateY(-3px);
+  }
+  to{
+    transform: translateY(3px);
+  }
+  
+}
+.quizzyTitle{
+  cursor: pointer;
+}
+.quizzyTitle:hover{
+  color: var(--blue);
+}

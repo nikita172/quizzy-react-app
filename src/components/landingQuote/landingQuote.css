@@ -1,0 +1,27 @@
+.landingQuoteContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+ 
+}
+.BackgroundCircle{
+  height: 140px;
+  width: 180px;
+  background-color: var(--blue);
+  border-radius: 50%;
+  position: relative;
+  left: 110px;
+
+}
+.landingQuoteTitle{
+  font-size: 25px;
+  z-index: 2;
+  font-weight: normal;
+  background-color: white;
+  padding: 5px 15px;
+  border-radius: 6px;
+  font-family:cursive;
+  font-weight: bold;
+  
+}

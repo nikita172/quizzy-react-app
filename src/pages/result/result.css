@@ -1,0 +1,33 @@
+.resultContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.resultWrapper{
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.timeupHeading{
+  color: green;
+}
+.score{
+  font-size: 19px;
+  padding-top: 10px;
+
+}
+.goToHomeBtn{
+  border: none;
+  background-color: forestgreen;
+  margin-top: 20px;
+  color:white;
+  font-size: 18px;
+  padding: 8px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}

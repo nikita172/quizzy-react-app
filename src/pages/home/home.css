@@ -1,0 +1,31 @@
+.allQuiz{
+  display: flex;
+  margin: 20px 0px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.showcaseAllQuiz{
+  padding:10px 100px;
+  background-color: white;
+}
+.showCaseSeach{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.showcaseQuizHeading{
+  font-size:18px;
+  padding: 20px 0px ;
+  color: var(--blue);
+}
+.quizSearch{
+  outline: none;
+  padding: 5px 10px;
+  border:1px solid var(--blue);
+  border-radius: 40px;
+}
+.quizSearch::placeholder{
+  color: var(--blue);
+}
+
